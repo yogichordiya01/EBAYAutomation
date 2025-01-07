@@ -1,0 +1,7 @@
+{
+    "Endpoint": "/v1/bpi/currentprice.json",
+    "bpi1Code": "USD",
+    "bpi2Code": "GBP",
+    "bpi3Code": "EUR",
+    "GbpDescription": "British Pound Sterling"
+}
