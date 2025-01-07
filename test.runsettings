@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<!-- Configurations that affect the Test Framework -->
+	<RunConfiguration>
+		<!-- Use 0 for maximum process-level parallelization. This does not force parallelization within the test DLL (on the thread-level). You can also change it from the Test menu; choose "Run tests in parallel". Unchecked = 1 (only 1), checked = 0 (max). -->
+		<MaxCpuCount>1</MaxCpuCount>
+		<!-- Path relative to directory that contains .runsettings file-->
+		<ResultsDirectory>.\TestResults</ResultsDirectory>
+
+	</RunConfiguration>
+
+
+	<!-- Parameters used by tests at run time -->
+	<TestRunParameters>
+		<!--		API Automation Test Data		-->
+		<Parameter name="RestEndPoint" value="/v1/bpi/currentprice.json" />
+		<Parameter name="Bpi1Code" value="USD" />
+		<Parameter name="Bpi2Code" value="GBP" />
+		<Parameter name="Bpi3Code" value="EUR" />
+		<Parameter name="GbpDescription" value="British Pound Sterling" />
+
+
+		<!--		Web Automation Test Data		-->
+		<Parameter name="WebAppUrl" value="https://www.ebay.com/" />
+		<Parameter name="ChromeDriver" value="C:\\Users\\Admin\\source\\repos\\UnitTestProject1\\driver" />
+		<Parameter name="SearchText" value="Book" />
+		<Parameter name="HomeTitle" value="Electronics, Cars, Fashion, Collectibles &amp; More | eBay" />
+	</TestRunParameters>
+
+	
+
+</RunSettings>
